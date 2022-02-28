@@ -70,6 +70,9 @@
     flex-wrap: wrap;
     margin-left: 10%;
     width: 75px;
+    height: auto;
+    border-right-style: solid;
+    border-color: #654632;
   }
   
   .product-image {
@@ -83,10 +86,27 @@
     flex: 0 0 60%;
   }
 
-  #first-project {
-      width: 100%;
-      background: #37485a;
+  #full-block {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 90%;
+      border-style: solid;
+      padding: 5px;
+      margin: 2px;
+      height: 100px;
   }
+
+  #half-block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 45%;
+    border-style: solid;
+    padding: 5px;
+    margin: 2px 1px;
+    height: 50px;
+}
   
   @media screen and (max-width: 768px) {
     main,
