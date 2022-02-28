@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  header {
+    display: flex;
+    height: 150px;
+    justify-content: flex-end;
+    margin-top: 1px ;
+    background: #37485a;
+    color: #605f5b;
+    padding-right: 14px;
+    padding-top: 50px;
+    background-image: url("../images/colorPalett.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header h1 {
+    padding: 10px 5px 0px 5px;
+    background: #fff;
+    opacity: 90%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #605f5b;
+    padding: 14px 20px;
+  }
+  
+  nav h1 {
+     color: #605f5b;
+     background: #fff;
+     opacity: 90%
+
+  }
+
+  nav p {
+      padding-top: 25px;
+  }
+
+  nav a {
+    color: #dbe3e5;
+    padding: 0px 20px;
+    text-decoration:underline;
+  }
+    
+  .info {
+    display: flex;
+    /* Align the child elements to the top of the parent */
+    align-items: flex-start;
+    width: 100%;
+    margin: 1% auto;
+  }
+  
+  .info-headings {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    width: 75px;
+  }
+  
+  .product-image {
+    width: 100%;
+  }
+  
+  .info-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    flex: 0 0 60%;
+  }
+
+  #first-project {
+      width: 100%;
+      background: #37485a;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav,
+    .info {
+      flex-direction: column;
+    }
+  
+    .info-text {
+      margin-left: 0;
+    }
+  }
+  
