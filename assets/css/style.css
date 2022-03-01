@@ -2,6 +2,14 @@
     box-sizing: border-box;
   }
   
+:root {
+    --white: #fff;
+    --gray-light: ;
+    --gray-dark: ;
+    --redish: ;
+
+  }
+
   body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
@@ -15,7 +23,7 @@
     display: flex;
     height: 150px;
     justify-content: flex-end;
-    margin-top: 1px ;
+    border-top: 1px solid #fff;
     background: #37485a;
     color: #605f5b;
     padding-right: 14px;
@@ -40,14 +48,14 @@
   }
   
   nav h1 {
-     color: #605f5b;
-     background: #fff;
-     opacity: 90%
+    color: #605f5b;
+    background: #fff;
+    opacity: 90%
 
   }
 
   nav p {
-      padding-top: 25px;
+    padding-top: 25px;
   }
 
   nav a {
@@ -60,54 +68,95 @@
     display: flex;
     /* Align the child elements to the top of the parent */
     align-items: flex-start;
-    width: 100%;
     margin: 1% auto;
   }
   
   .info-headings {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
     margin-left: 10%;
     width: 75px;
     height: auto;
     border-right-style: solid;
     border-color: #654632;
+    text-align: end;
+    padding-right: 10px;
   }
-  
-  .product-image {
-    width: 100%;
-  }
-  
+
   .info-text {
     display: flex;
     flex-wrap: wrap;
     margin-left: 1%;
-    flex: 0 0 60%;
+    flex: 0 0 80%;
+    line-height: 0%;
   }
 
   #full-block {
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      width: 90%;
-      border-style: solid;
-      padding: 5px;
-      margin: 2px;
-      height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    border: 5px solid #bac3ca;
+    padding: 5px;
+    margin: 2px;
+    height: 350px;
+    line-height: 200%;
+    background-image: url("../images/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  #half-block {
+  #half-block1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 45%;
-    border-style: solid;
+    border: 5px solid #bac3ca;
     padding: 5px;
     margin: 2px 1px;
-    height: 50px;
-}
+    height: 175px;
+    line-height: 200%;
+    background-image: url("../images/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
+  #half-block2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 45%;
+    border: 5px solid #bac3ca;
+    padding: 5px;
+    margin: 2px 1px;
+    height: 175px;
+    line-height: 200%;
+    background-image: url("../images/img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ProjectName {
+    color: #605f5b;
+    background: #fff;
+    opacity: 90%;
+    padding: 5px;
+  }
+
+  #contactLinks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 14px 20px;
+    background-color: #605f5b;
+  }
+
+  #contactLinks a {
+    color: #dbe3e5;
+    text-decoration: underline dotted blue 2px;
+  }
+
   @media screen and (max-width: 768px) {
     main,
     nav,
