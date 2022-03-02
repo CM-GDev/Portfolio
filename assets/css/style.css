@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
  a:hover {
-    font-weight: bold;
+    font-style: italic;
  } 
 
  a:link {
@@ -80,9 +80,10 @@
     display: flex;
     margin-left: 10%;
     width: 75px;
-    height: 100%;
+    /* height: 100%; */
     border-right-style: solid;
     border-color: var(--redish);
+    justify-content: end;
     text-align: end;
     color: var(--gray-dark);
     padding-right: 10px;
@@ -131,7 +132,9 @@
     color: var(--redish);
     background: var(--white);
     opacity: 90%;
-    padding: 5px;
+    padding: 0px 5px;
+    text-align: center;
+    line-height: 1%;
   }
 
   #contactLinks {
@@ -145,7 +148,15 @@
   #contactLinks a {
     color: var(--gray-light);
   }
-
+  
+  /* Use an attribute selector to select all <a> elements that have an href value that ends with '.css' */
+  nav h1::after {
+    content: url("../images/avatar.png");
+    height: fit-content;
+    display: inline-block;
+    margin-left: 3px;
+  }
+  
   @media screen and (max-width: 768px) {
     main,
     nav,
