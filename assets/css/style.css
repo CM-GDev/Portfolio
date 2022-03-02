@@ -1,14 +1,17 @@
 * {
     box-sizing: border-box;
   }
+  /* Add font effect for hovering over project boxes */
  a:hover {
     font-style: italic;
  } 
 
+ /* remove underline from links */
  a:link {
      text-decoration: none;
  }
 
+ /* setting color palette for page */
 :root {
     --white: #fff;
     --gray-light: #dbe3e5;
@@ -16,6 +19,7 @@
     --redish: #654632;
   }
 
+  /* setting body as a flex box */
   body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
@@ -25,6 +29,7 @@
     justify-content: flex-start;
   }
   
+  /* Setting header properties including a unique backgroun img  and setting as flex box*/
   header {
     display: flex;
     height: 150px;
@@ -39,12 +44,14 @@
     background-size: cover;
   }
 
+  /* properties for displaying "Welcome to my page!" */
   header h1 {
     padding: 10px 5px 0px 5px;
     background: var(--white);
     opacity: 90%;
   }
   
+/* setting nav as flex box */
   nav {
     display: flex;
     justify-content: space-between;
@@ -52,6 +59,7 @@
     padding: 14px 20px;
   }
   
+  /* setting properties for my name */
   nav h1 {
     color: var(--gray-dark);
     background: var(--white);
@@ -59,6 +67,7 @@
 
   }
 
+  /* setting properties for nav links */
   nav p {
     padding-top: 25px;
   }
@@ -67,7 +76,8 @@
     color: var(--gray-light);
     padding: 0px 20px;
   }
-    
+   
+  /* setting main body as flex box and setting properties */
   .info {
     display: flex;
     /* Align the child elements to the top of the parent */
@@ -76,6 +86,7 @@
     margin: 1% auto;
   }
   
+  /* properties for left hand side headings */
   .info-headings {
     display: flex;
     margin-left: 10%;
@@ -89,6 +100,7 @@
     padding-right: 10px;
   }
 
+  /* properties for text corresponding to left hand side titles */
   .info-text {
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +110,7 @@
     line-height: 0%;
   }
 
+  /* properties for 1st work link */
   .block {
     display: flex;
     justify-content: flex-end;
@@ -114,6 +127,7 @@
     background-size: cover;
   }
 
+  /* properties for other work links */
   #half-block1 {
     width: 45%;
     height: 175px;
@@ -128,6 +142,7 @@
     background-image: url("../images/img3.jpg");
   }
 
+  /* Properties for project names */
   .ProjectName {
     color: var(--redish);
     background: var(--white);
@@ -137,6 +152,7 @@
     line-height: 1%;
   }
 
+  /* properties for "contact me" section */
   #contactLinks {
     display: flex;
     width: 100%;
@@ -149,7 +165,7 @@
     color: var(--gray-light);
   }
   
-  /* Use an attribute selector to select all <a> elements that have an href value that ends with '.css' */
+  /* Use nav h1 selector to add Avatar image after */
   nav h1::after {
     content: url("../images/avatar.png");
     height: fit-content;
@@ -157,15 +173,22 @@
     margin-left: 3px;
   }
   
-  @media screen and (max-width: 768px) {
-    main,
-    nav,
-    .info {
-      flex-direction: column;
+  /* media queries for different screen widths */
+  @media screen and (max-width: 992px) {
+    main {
+        flex-direction: column;
     }
-  
-    .info-text {
-      margin-left: 0;
+    
+    .block,
+    #half-block1,
+    #half-block2,
+    .info-headings
+     {
+        width: 100%;
+    }
+
+    .info-headings {
+        border-bottom-style: solid;
     }
   }
   
