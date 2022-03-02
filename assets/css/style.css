@@ -174,7 +174,7 @@
   }
   
   /* media queries for different screen widths */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 768px) {
     main {
         flex-direction: column;
     }
@@ -189,6 +189,12 @@
 
     .info-headings {
         border-bottom-style: solid;
+        border-right-style: none;
+        justify-content: center;
+    }
+
+    .info {
+        justify-content: center;
     }
   }
   
