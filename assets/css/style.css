@@ -91,7 +91,7 @@
     display: flex;
     margin-left: 10%;
     width: 75px;
-    /* height: 100%; */
+    /* height:fit-content; */
     border-right-style: solid;
     border-color: var(--redish);
     justify-content: end;
@@ -100,14 +100,17 @@
     padding-right: 10px;
   }
 
-  /* properties for text corresponding to left hand side titles */
+  /* properties for text corresponding to left hand side headings */
   .info-text {
     display: flex;
     flex-wrap: wrap;
-    height: auto;
     margin-left: 1%;
-    flex: 0 0 80%;
-    line-height: 0%;
+    flex: 1 0 80%;
+    line-height: 120%;
+  }
+
+  .info-text p {
+      margin: 9px;
   }
 
   /* properties for 1st work link */
