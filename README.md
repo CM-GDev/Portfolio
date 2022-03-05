@@ -6,9 +6,13 @@
 - The homework assignment was to create a Portfolio webpage from scratch. The purpose for the webpage is to showcase current and future projects to potential employers.
 - In completing this assignment I was able to apply the lessons from week two: flexbox, media queries, and CSS variables.
 
-The following is a screen shot of my Portfolio page when it was first submitted for review:
+The following is a descktop screenshot of my Portfolio page when it was first submitted for review:
 
 ![My Portfolio Webpage](/assets/images/PortfolioWeb.JPG)
+
+This next screenshot shows the media queries at work when the screen width is at 768px or lower. (tablet or cellphone view)
+
+![Smaller Width Porfotio Webpage](/assets/images/SmallerWidthPorfolioWebPage.jpg)
 
 
 ## Credits
