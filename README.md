@@ -1,10 +1,14 @@
 # <Portfolio WebSite>
+## UPDATE: 
+This Portfolio page is no longer up to date. Please visit my latest Portfolio built with React.js here:
+- [GitHub Repo](https://github.com/CM-GDev/react-cmg-dev-portfolio)  
 
 ## Description
 
 - This is my second homework assignment for Full Stack Web Development bootcamp.
 - The homework assignment was to create a Portfolio webpage from scratch. The purpose for the webpage is to showcase current and future projects to potential employers.
 - In completing this assignment I was able to apply the lessons from week two: flexbox, media queries, and CSS variables.
+- Here is the live webpage [link](https://cm-gdev.github.io/Portfolio/) to latest version. 
 
 The following is a descktop screenshot of my Portfolio page when it was first submitted for review:
 
@@ -54,5 +58,3 @@ Coming Soon
 ## How to Contribute
 
 Please feel free to review my code at [GITHUB](https://github.com/CM-GDev/Portfolio) for this project and provide feedback for improving my Portfolio code.
-
-Here is the live webpage [link](https://cm-gdev.github.io/Portfolio/) to latest version. 
