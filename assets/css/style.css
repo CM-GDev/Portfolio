@@ -177,7 +177,7 @@
   }
   
   /* media queries for different screen widths */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     main {
         flex-direction: column;
     }
